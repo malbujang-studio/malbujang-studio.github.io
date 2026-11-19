@@ -14,6 +14,9 @@
   .lang { background:var(--cream); border-radius:10px; padding:10px 14px; }
   hr { border:none; border-top:2px solid var(--pink); margin:48px 0; }
   a { color:var(--ink); }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { border:1px solid #e6dccb; padding:6px 8px; text-align:left; vertical-align:top; }
+  th { background:var(--cream); }
 </style>
 </head>
 <body>
@@ -22,44 +25,84 @@
 
 <section id="ko" lang="ko">
 <h1>「온가족 길건너기」 개인정보처리방침</h1>
-<p>시행일: 2026년 11월 19일</p>
+<p>시행일: 2026년 11월 20일 (이전 판: 2026년 11월 19일)</p>
 <p>말부장 스튜디오(이하 '개발자')가 제공하는 게임 「온가족 길건너기」(영어 이름 Follow Me Across, 이하 '게임')는 이용자의 개인정보를 소중히 여기며, 「개인정보 보호법」 등 관련 법령을 지킵니다. 이 방침은 게임이 어떤 정보를 다루는지 설명합니다.</p>
 
-<h2>1. 모으는 정보</h2>
-<p>지금 버전의 게임은 <strong>이용자를 알아볼 수 있는 개인정보를 모으지 않습니다.</strong></p>
+<h2>1. 게임이 직접 모으는 정보</h2>
 <ul>
-  <li>이름, 이메일, 전화번호, 위치, 연락처, 사진을 묻거나 읽지 않습니다.</li>
+  <li>게임은 이름, 이메일, 전화번호, 정확한 위치, 연락처, 사진을 묻거나 읽지 않습니다.</li>
   <li>회원가입과 로그인이 없습니다.</li>
-  <li>인터넷으로 정보를 보내지 않습니다. 게임은 인터넷 권한을 쓰지 않습니다.</li>
-  <li>광고와 이용 기록 분석 도구를 쓰지 않습니다.</li>
+  <li>개발자는 이용자를 알아볼 수 있는 정보를 따로 서버에 모으지 않습니다. 다만 아래 3·4번의 광고와 결제 도구가 그 회사의 방침에 따라 정보를 다룹니다.</li>
 </ul>
 
 <h2>2. 기기 안에만 저장하는 정보</h2>
-<p>게임을 이어서 즐길 수 있도록 다음 정보를 <strong>이용자의 기기 안에</strong> 저장합니다. 게임은 이 정보를 개발자나 다른 곳으로 보내지 않습니다.</p>
+<p>게임을 이어서 즐길 수 있도록 다음 정보를 <strong>이용자의 기기 안에</strong> 저장합니다. 게임은 이 정보를 개발자에게 보내지 않습니다.</p>
 <ul>
   <li>최고 점수와 가장 멀리 간 기록, 집까지의 도전 기록과 명예의 전당</li>
-  <li>코인, 꾸미기, 슈퍼 보호막</li>
+  <li>코인, 꾸미기, 슈퍼 보호막, 마을 엽서, 손수건 색</li>
   <li>구한 아기 동물 도감, 열린 가족, 업적, 도움말을 본 기록</li>
   <li>설정(배경음악, 효과음, 진동, 선물 알림, 언어)</li>
   <li>무료 선물을 다음에 받을 수 있는 때, 선물 알림을 물어봤는지, 리뷰를 부탁한 횟수</li>
+  <li>끝낸 판 수(처음 5판은 광고를 넣지 않기 위해), 오늘 본 보상형 광고 횟수(하루 횟수를 세기 위해)</li>
+  <li>산 상품(광고 제거, 응원 꾸미기 세트)과 이미 지급한 구매의 거래 번호(같은 구매를 두 번 지급하지 않기 위해)</li>
 </ul>
-<p>게임을 지우면 기기 안의 이 정보도 함께 지워집니다.</p>
+<p>게임을 지우면 기기 안의 이 정보도 함께 지워집니다. 코인과 꾸미기는 서버에 보관하지 않습니다. 단, <strong>광고 제거와 응원 꾸미기 세트</strong>는 구글 플레이의 구매 기록으로 다시 받을 수 있습니다(설정 → 정보 → '구매 복원', 또는 게임을 켤 때 자동).</p>
 <p><strong>휴대폰의 백업 기능:</strong> 휴대폰에서 구글 백업을 켜 두셨다면, 안드로이드가 다른 앱의 자료와 함께 이 게임의 기록도 이용자 본인의 구글 계정에 백업하고, 게임을 다시 설치할 때 되살릴 수 있습니다. 이것은 휴대폰의 기능이며 개발자는 그 자료를 볼 수 없습니다. 휴대폰 설정에서 백업을 끌 수 있습니다.</p>
 
-<h2>3. 사용하는 권한</h2>
+<h2>3. 광고 (Google AdMob)</h2>
+<p>게임에는 Google LLC의 광고 서비스 <strong>AdMob</strong>(Google 모바일 광고 SDK)이 들어 있습니다.</p>
 <ul>
+  <li><strong>판 사이 광고(전면 광고):</strong> 처음 5판이 지난 뒤, 판이 끝나고 '다시 도전'을 누르면 한 번 나옵니다. 집에 도착한 뒤(엔딩)와 2인 놀이에서는 나오지 않습니다.</li>
+  <li><strong>보상형 광고:</strong> 이용자가 직접 고를 때만 봅니다(선물 코인 2배, 판 끝 주운 코인 2배, 다음 판 보호막). 앱을 켤 때 광고와 배너 광고는 없습니다.</li>
+  <li>광고를 보여 주고, 광고 효과를 재고, 부정 이용을 막기 위해 Google 모바일 광고 SDK가 다음 정보를 모으고 Google과 나눌 수 있습니다: <strong>기기의 광고 ID(광고 식별자)</strong>와 앱 세트 ID 등 기기 식별자, <strong>IP 주소</strong>(대략적인 지역을 짐작하는 데 쓰일 수 있음), 앱 실행·누름·동영상 시청 같은 <strong>앱 안의 활동</strong>, 앱 시작 시간·멈춤·전력 사용 같은 <strong>진단 정보</strong>. 모은 정보는 전송할 때 암호화(TLS)됩니다.</li>
+  <li><strong>광고 ID:</strong> 휴대폰 설정(설정 → 개인정보 보호 또는 Google → 광고)에서 광고 ID를 지우거나 새로 만들 수 있고, 맞춤 광고를 끌 수 있습니다.</li>
+  <li><strong>동의(Google UMP):</strong> 유럽경제지역·영국·스위스처럼 법으로 동의가 필요한 지역에서는 게임을 처음 켤 때 Google의 동의 화면을 먼저 보여 드리고, 동의 결과에 따라 맞춤 광고 또는 비맞춤 광고를 보여 줍니다. 그런 지역에서는 설정 → 정보 → <strong>'개인정보 설정 (광고 동의)'</strong>에서 언제든 다시 고를 수 있습니다.</li>
+  <li>게임은 13세 이상을 대상으로 하며, 광고 내용은 'PG(보호자 지도 아래 대부분 연령에 적합)' 등급까지만 받도록 설정했습니다.</li>
+  <li>'광고 제거' 상품을 사면 판 사이 광고가 없어지고, 보상형 광고는 보지 않고 바로 보상을 받습니다.</li>
+  <li>Google이 정보를 다루는 방식: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> · Google 개인정보처리방침: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+<p>인터넷이 없을 때는 광고가 나오지 않으며, 게임은 그대로 할 수 있습니다.</p>
+
+<h2>4. 인앱 결제 (Google Play 결제)</h2>
+<p>게임 안 상점에서 광고 제거, 응원 꾸미기 세트, 코인 300개·1,000개를 살 수 있습니다(값은 상점과 Google Play 결제 화면에 표시됩니다).</p>
+<ul>
+  <li>결제는 <strong>Google Play</strong>가 처리합니다. 개발자와 게임은 카드 번호 같은 결제 수단 정보를 받거나 보지 않습니다.</li>
+  <li>게임은 구매를 확인하고 상품을 지급하기 위해 Google Play가 알려 주는 구매 정보(상품, 거래 번호, 구매 영수증)를 받습니다.</li>
+  <li>결제 기능은 Unity Technologies의 <strong>Unity IAP</strong>(인앱 결제 도구)를 씁니다. Unity IAP는 구매가 진행될 때 서비스 운영(중복 처리 방지 등)과 판매 통계를 위해 구매·거래 정보, 기기·앱 설치 식별자, 기기 종류·OS 버전·언어, IP 주소로 짐작한 국가를 Unity에 보낼 수 있습니다. Unity 방침: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">https://unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+  <li>환불은 Google Play의 환불 정책을 따릅니다.</li>
+</ul>
+
+<h2>5. 사용하는 권한</h2>
+<ul>
+  <li><strong>인터넷·네트워크 상태:</strong> 광고를 불러오고, 동의 화면을 보여 주고, 구매를 확인하는 데 씁니다.</li>
+  <li><strong>광고 ID(com.google.android.gms.permission.AD_ID):</strong> 위 3번의 광고에 씁니다.</li>
+  <li><strong>결제(com.android.vending.BILLING):</strong> 위 4번의 Google Play 결제에 씁니다.</li>
   <li><strong>진동:</strong> 부딪히거나 아기를 구할 때 짧게 진동합니다. 게임 설정에서 끌 수 있습니다.</li>
   <li><strong>알림(안드로이드 13 이상에서 '알림 보내기'):</strong> 4시간마다 오는 무료 선물이 준비되면 알림 하나를 띄웁니다. 게임 안에서 먼저 여쭙고, '알려 주세요'를 고른 분께만 휴대폰의 허용 창을 띄웁니다. 알림은 휴대폰 안에서만 예약하며 서버를 거치지 않고, 이 기능으로 모으는 정보는 없습니다. 밤 10시~아침 8시에는 알리지 않고 아침으로 미룹니다. 게임 설정의 '선물 알림'이나 휴대폰 설정에서 언제든 끌 수 있습니다.</li>
 </ul>
 <p>리뷰 부탁 창에서 '리뷰 쓰러 가기'를 누르거나 설정에서 이 방침을 열면 휴대폰의 스토어 앱이나 웹 브라우저가 열립니다. 게임은 이때 정보를 보내지 않으며, 리뷰를 썼는지도 알지 못합니다.</p>
 
-<h2>4. 아동의 개인정보</h2>
-<p>게임은 아동을 포함한 누구의 개인정보도 모으지 않습니다.</p>
+<h2>6. 제3자 제공과 처리 위탁</h2>
+<p>개발자는 개인정보를 팔지 않습니다. 광고와 결제를 위해 아래 회사의 도구를 씁니다. 각 회사는 자기 방침에 따라 정보를 다룹니다.</p>
+<table>
+  <tr><th>회사</th><th>하는 일</th><th>다루는 정보</th></tr>
+  <tr><td>Google LLC (AdMob, User Messaging Platform)</td><td>광고 제공, 광고 동의 화면</td><td>광고 ID 등 기기 식별자, IP 주소(대략적 지역), 앱 안 활동, 진단 정보, 동의 선택</td></tr>
+  <tr><td>Google LLC (Google Play 결제)</td><td>결제 처리</td><td>구매 정보(결제 수단 정보는 Google만)</td></tr>
+  <tr><td>Unity Technologies (Unity IAP)</td><td>인앱 결제 도구</td><td>구매·거래 정보, 기기·설치 식별자, 기기 정보, 국가</td></tr>
+</table>
+<p>이 회사들의 서버는 대한민국 밖(예: 미국)에 있을 수 있으며, 정보는 광고·결제가 이루어질 때 인터넷으로 전송됩니다.</p>
 
-<h2>5. 제3자 제공과 처리 위탁</h2>
-<p>개인정보를 모으지 않으므로 제3자에게 제공하거나 처리를 맡기지 않습니다.</p>
+<h2>7. 아동의 개인정보</h2>
+<p>게임은 <strong>13세 이상</strong>을 대상으로 합니다. 개발자는 13세 미만 아동의 개인정보를 일부러 모으지 않습니다. 13세 미만 아동의 정보가 모였다고 생각되면 아래 연락처로 알려 주세요.</p>
 
-<h2>6. 개인정보 보호책임자 및 문의처</h2>
+<h2>8. 이용자의 권리</h2>
+<ul>
+  <li>기기 안에 저장된 정보는 게임을 지우면 지워집니다.</li>
+  <li>광고 ID는 휴대폰 설정에서 지우거나 새로 만들 수 있고, 맞춤 광고를 끌 수 있습니다. 동의가 필요한 지역에서는 게임의 '개인정보 설정 (광고 동의)'에서 다시 고를 수 있습니다.</li>
+  <li>Google·Unity가 다루는 정보에 대한 열람·삭제 요청은 각 회사의 방침에 적힌 방법으로 할 수 있습니다. 개발자에게 문의하시면 안내해 드립니다.</li>
+</ul>
+
+<h2>9. 개인정보 보호책임자 및 문의처</h2>
 <ul>
   <li>개발자: 말부장 스튜디오</li>
   <li>이메일: <a href="mailto:malbujang.studio@gmail.com">malbujang.studio@gmail.com</a></li>
@@ -70,61 +113,101 @@
   <li>개인정보분쟁조정위원회 (www.kopico.go.kr / 1833-6972)</li>
 </ul>
 
-<h2>7. 방침의 변경</h2>
-<p>광고나 온라인 기능처럼 정보를 다루는 기능이 생기면 이 방침을 고치고, 게임 안과 스토어 페이지, 이 페이지를 통해 알려 드립니다.</p>
-<p>시행일: 2026년 11월 19일</p>
+<h2>10. 방침의 변경</h2>
+<p>정보를 다루는 기능이 바뀌면 이 방침을 고치고, 게임 안과 스토어 페이지, 이 페이지를 통해 알려 드립니다.</p>
+<p>시행일: 2026년 11월 20일</p>
 </section>
 
 <hr>
 
 <section id="en" lang="en">
 <h1>Follow Me Across — Privacy Policy</h1>
-<p>Effective date: November 19, 2026</p>
+<p>Effective date: November 20, 2026 (previous version: November 19, 2026)</p>
 <p><strong>Follow Me Across</strong> (Korean title 온가족 길건너기, "the game"), made by Malbujang Studio ("the developer"), respects your privacy. This policy explains what information the game handles.</p>
 
-<h2>1. Information we collect</h2>
-<p>The current version of the game <strong>does not collect any information that can identify you.</strong></p>
+<h2>1. Information the game itself collects</h2>
 <ul>
-  <li>It does not ask for or read your name, email, phone number, location, contacts or photos.</li>
+  <li>The game does not ask for or read your name, email, phone number, precise location, contacts or photos.</li>
   <li>There is no sign-up and no login.</li>
-  <li>It does not send any information over the internet. The game does not use the internet permission.</li>
-  <li>It does not use ads or analytics tools.</li>
+  <li>The developer does not collect information that identifies you on its own servers. The ad and payment tools in sections 3 and 4 handle information under their own policies.</li>
 </ul>
 
 <h2>2. Information stored on your device</h2>
-<p>So that you can keep playing where you left off, the game stores the following <strong>on your device</strong>. The game does not send this information to the developer or anyone else.</p>
+<p>So that you can keep playing where you left off, the game stores the following <strong>on your device</strong>. The game does not send this information to the developer.</p>
 <ul>
   <li>Your best score and farthest run, your tries on the way home and the Hall of Fame</li>
-  <li>Coins, accessories and the Super Shield</li>
+  <li>Coins, accessories, the Super Shield, village postcards and neckerchief colors</li>
   <li>The album of rescued babies, unlocked families, achievements, and which tips you have seen</li>
   <li>Settings (music, sound effects, vibration, gift reminders, language)</li>
   <li>When your next free gift is ready, whether you were asked about gift reminders, and how many times you were asked for a review</li>
+  <li>How many runs you have finished (no ads in the first 5 runs) and how many rewarded ads you watched today (daily limits)</li>
+  <li>What you bought (Remove Ads, Cheer Set) and the transaction numbers already delivered (so a purchase is never delivered twice)</li>
 </ul>
-<p>If you uninstall the game, this information on your device is deleted with it.</p>
+<p>If you uninstall the game, this information on your device is deleted with it. Coins and accessories are not kept on a server. <strong>Remove Ads and the Cheer Set</strong> can be restored from your Google Play purchase history (Settings → About → "Restore purchases", or automatically when the game starts).</p>
 <p><strong>Your phone's backup feature:</strong> If Google backup is turned on in your phone's settings, Android may back up this game's saved progress to your own Google account along with your other apps' data, and restore it when you reinstall the game. This is a feature of your phone. The developer cannot see that data. You can turn backup off in your phone's settings.</p>
 
-<h2>3. Permissions</h2>
+<h2>3. Ads (Google AdMob)</h2>
+<p>The game includes <strong>AdMob</strong> (the Google Mobile Ads SDK), an ad service of Google LLC.</p>
 <ul>
+  <li><strong>Ads between runs (interstitial ads):</strong> after your first 5 runs, one ad appears when you tap "Try again" after a run. There are none after reaching home (the ending) or in 2-player mode.</li>
+  <li><strong>Rewarded ads:</strong> only when you choose to watch one (double a coin gift, double the coins you picked up in a run, a shield for the next run). There are no app-open ads and no banner ads.</li>
+  <li>To show ads, measure them and prevent fraud, the Google Mobile Ads SDK may collect and share with Google: <strong>your device's advertising ID</strong> and other device identifiers such as the app set ID, your <strong>IP address</strong> (which may be used to estimate your general location), <strong>in-app activity</strong> such as app launches, taps and video views, and <strong>diagnostics</strong> such as app launch time, hang rate and energy use. This data is encrypted in transit (TLS).</li>
+  <li><strong>Advertising ID:</strong> you can delete or reset your advertising ID and turn off personalized ads in your phone's settings (Settings → Privacy or Google → Ads).</li>
+  <li><strong>Consent (Google UMP):</strong> where the law requires consent (for example the European Economic Area, the UK and Switzerland), Google's consent screen is shown first when you start the game, and ads are personalized or non-personalized based on your choice. In those regions you can change your choice at any time under Settings → About → <strong>"Privacy options (ad consent)"</strong>.</li>
+  <li>The game is for ages 13 and up, and ad content is limited to the "PG" rating (suitable for most audiences with parental guidance).</li>
+  <li>If you buy "Remove Ads", ads between runs disappear and rewarded rewards are given right away without an ad.</li>
+  <li>How Google uses information: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> · Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+<p>Without an internet connection no ads are shown, and you can keep playing.</p>
+
+<h2>4. In-app purchases (Google Play Billing)</h2>
+<p>In the in-game shop you can buy Remove Ads, the Cheer Set, and 300 or 1,000 coins (prices are shown in the shop and on the Google Play checkout screen).</p>
+<ul>
+  <li>Payments are processed by <strong>Google Play</strong>. The developer and the game never receive or see your card or other payment details.</li>
+  <li>To confirm a purchase and deliver it, the game receives purchase information from Google Play (the product, transaction number and purchase receipt).</li>
+  <li>Purchases use <strong>Unity IAP</strong> by Unity Technologies. When a purchase runs, Unity IAP may send Unity the purchase and transaction details, device and app-installation identifiers, device model, OS version and language, and the country estimated from your IP address, to run the service (for example to avoid processing a purchase twice) and for sales reporting. Unity's policy: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">https://unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+  <li>Refunds follow Google Play's refund policy.</li>
+</ul>
+
+<h2>5. Permissions</h2>
+<ul>
+  <li><strong>Internet and network state:</strong> to load ads, show the consent screen and confirm purchases.</li>
+  <li><strong>Advertising ID (com.google.android.gms.permission.AD_ID):</strong> for the ads in section 3.</li>
+  <li><strong>Billing (com.android.vending.BILLING):</strong> for Google Play purchases in section 4.</li>
   <li><strong>Vibration:</strong> The phone vibrates briefly when you bump into something or rescue a baby. You can turn this off in the game's settings.</li>
   <li><strong>Notifications ("Send notifications" on Android 13 and later):</strong> When your free gift (every 4 hours) is ready, the game can show one notification. The game asks you first, and only shows the phone's permission prompt if you choose "Yes, please". Notifications are scheduled on your phone only. No server is involved and no information is collected by this feature. Between 10 pm and 8 am the game waits until morning. You can turn reminders off at any time in the game's settings or in your phone's settings.</li>
 </ul>
 <p>If you tap "Write a review" or open this policy from the settings, your phone's store app or web browser opens. The game sends nothing, and it does not know whether you wrote a review.</p>
 
-<h2>4. Children's privacy</h2>
-<p>The game does not collect personal information from anyone, including children.</p>
+<h2>6. Third parties</h2>
+<p>The developer does not sell personal information. The game uses tools from the companies below for ads and payments. Each company handles information under its own policy.</p>
+<table>
+  <tr><th>Company</th><th>What it does</th><th>Information handled</th></tr>
+  <tr><td>Google LLC (AdMob, User Messaging Platform)</td><td>Ads, ad consent screen</td><td>Advertising ID and other device identifiers, IP address (general location), in-app activity, diagnostics, consent choices</td></tr>
+  <tr><td>Google LLC (Google Play Billing)</td><td>Payment processing</td><td>Purchase information (payment details stay with Google)</td></tr>
+  <tr><td>Unity Technologies (Unity IAP)</td><td>In-app purchase tool</td><td>Purchase and transaction details, device and installation identifiers, device information, country</td></tr>
+</table>
+<p>These companies' servers may be outside Korea (for example in the United States). Information is sent over the internet when ads or purchases happen.</p>
 
-<h2>5. Sharing with third parties</h2>
-<p>Because the game collects no personal information, nothing is shared with or handed to third parties.</p>
+<h2>7. Children's privacy</h2>
+<p>The game is for ages <strong>13 and up</strong>. The developer does not knowingly collect personal information from children under 13. If you believe a child under 13 has provided information, please contact us below.</p>
 
-<h2>6. Contact</h2>
+<h2>8. Your choices</h2>
+<ul>
+  <li>Information stored on your device is deleted when you uninstall the game.</li>
+  <li>You can delete or reset your advertising ID and turn off personalized ads in your phone's settings. Where consent is required, you can change it under "Privacy options (ad consent)" in the game.</li>
+  <li>To access or delete information handled by Google or Unity, use the methods in their policies. Contact us and we will help.</li>
+</ul>
+
+<h2>9. Contact</h2>
 <ul>
   <li>Developer: Malbujang Studio</li>
   <li>Email: <a href="mailto:malbujang.studio@gmail.com">malbujang.studio@gmail.com</a></li>
 </ul>
 
-<h2>7. Changes to this policy</h2>
-<p>If features that handle information are added, such as ads or online features, this policy will be updated and the change will be announced in the game, on the store page and on this page.</p>
-<p>Effective date: November 19, 2026</p>
+<h2>10. Changes to this policy</h2>
+<p>If the way the game handles information changes, this policy will be updated and the change will be announced in the game, on the store page and on this page.</p>
+<p>Effective date: November 20, 2026</p>
 </section>
 </main>
 </body>
